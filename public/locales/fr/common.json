@@ -1,3 +1,7 @@
 {
-  "hello": "bonjour"
+  "hello": "bonjour",
+  "articles": "des articles",
+  "about_us": "à propos de nous",
+  "contact_us": "nous contacter",
+  "help": "aider"
 }
