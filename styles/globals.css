@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.navbar_toggler {
+  @apply absolute py-5 lg:py-0 lg:px-4 xl:px-6 bg-slate-200 lg:bg-transparent shadow-lg rounded-b-xl w-full right-0 top-full lg:block lg:static lg:shadow-none;
+}
+.menu_item {
+  @apply text-base font-medium hover:text-blue-700 py-2 lg:py-6 lg:inline-flex lg:px-0 flex mx-8 lg:mr-0 lg:ml-7 xl:ml-12;
+}
+.menu_item_active {
+  @apply lg:text-slate-900 text-blue-600 font-semibold;
+}
+/* Navbar of main layout end */
